@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script defer src="./static/js/index.js"></script> 
+    <script defer src="bundle.js"></script> 
+        <title>Document</title>
+</head>
+<body>
+    <header> 
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#init">git init</a>
+            <a href="#checkout">git checkout</a>
+            <a href="#clone">git clone</a>
+          </div>
+    </header>
+
+<main>
+    <h1>Git commands for beginners</h1>
+    <h2>Three popular commands</h2>
+
+    <p id="init"> <h3> git init</h3> <br\>
+        This is used to set up the current folder as a github repository
+    </p>
+
+    <p id = "checkout"> <h3> git checkout -b &ltbranch name&gt </h3> <br\>
+        This is used to create a new branch and make this new branch the currently active branch.
+    </p>
+
+    <p id = "clone"> <h3> git clone &ltremote repository&gt</h3> <br\>
+        This is used to clone a remote repository. 
+        If multiple brnaches are present, a remote connection is established with all branches. Only one branch will be checked out. Other branches will need to be pulled.
+    </p>
+
+</main>
+
+</body>
+</html>
